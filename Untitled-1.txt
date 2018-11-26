@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Practice </title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="customStyle.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <ul class="nav1 nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <div class="thumbnail">
+            <div class ="main">
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1>Hello World</h1>
+                        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                        <p><a class="btn btn-primary btn-lg" role="button">Call to Action! &raquo;</a></p>
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="row">
+                        <div class="card-group">
+                            <div class="col-xs-3 ">
+                                <div class="thumbnail">
+                                    <div class="card">
+                                        <img class="card-img-top" src="images/user.jpg" alt="Card image" style="width:100%">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><b>Card title</b></h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                        <div class="card-footer">
+                                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="thumbnail">
+                                    <div class="card">
+                                        <img class="card-img-top" src="user.jpg" alt="Card image" style="width:100%">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><b>Card title</b></h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                        <div class="card-footer">
+                                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 ">
+                                <div class="thumbnail">
+                                    <div class="card">
+                                        <img class="card-img-top" src="user.jpg" alt="Card image" style="width:100%">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><b>Card title</b></h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                        <div class="card-footer">
+                                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="thumbnail">
+                                    <div class="card">
+                                        <img class="card-img-top" src="user.jpg" alt="Card image" style="width:100%">
+                                        <div class="card-body">
+                                            <h5 class="card-title"><b>Card title</b></h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                        <div class="card-footer">
+                                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+            <div class="container">
+                    <a class="navbar-brand"  href="#"> Copyright &copy; your website 2017</a>
+            </div>
+        </div>
+    </footer>
+    
+  </body>
+</html>
